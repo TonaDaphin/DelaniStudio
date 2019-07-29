@@ -38,4 +38,84 @@ $(document).ready(function(){
     $("#do").toggle();
     $(".pro_p").toggle();
   });
+  $("#work4p").hide();
+  $("#work4i").animate({opacity:5});
+  $("#work4i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work4p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work4p").fadeOut(); 
+});
+$("#work3p").hide();
+  $("#work3i").animate({opacity:5});
+  $("#work3i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work3p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work3p").fadeOut(); 
+});
+$("#work2p").hide();
+  $("#work2i").animate({opacity:5});
+  $("#work2i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work2p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work2p").fadeOut(); 
+});
+$("#work1p").hide();
+  $("#work1i").animate({opacity:5});
+  $("#work1i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work1p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work1p").fadeOut(); 
+});
+$("#work5p").hide();
+  $("#work5i").animate({opacity:5});
+  $("#work5i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work5p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work5p").fadeOut(); 
+});
+$("#work6p").hide();
+  $("#work6i").animate({opacity:5});
+  $("#work6i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work6p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work6p").fadeOut(); 
+});
+$("#work7p").hide();
+  $("#work7i").animate({opacity:5});
+  $("#work7i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work7p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work7p").fadeOut(); 
+});
+$("#work8p").hide();
+  $("#work8i").animate({opacity:5});
+  $("#work8i").hover(function(){
+      $(this).stop().animate({opacity:0.4});
+      $("#work8p").fadeIn(); 
+  },
+  function(){
+    $(this).stop().animate({opacity:1});
+    $("#work8p").fadeOut(); 
+});
 });
